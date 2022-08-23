@@ -116,5 +116,11 @@
   <ItemGroup>
     <None Include="assets\FlashNotReady.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\CosmicInsight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\Boots.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
