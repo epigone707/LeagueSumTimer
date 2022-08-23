@@ -68,9 +68,9 @@
             // 
             // btnClipboard
             // 
-            this.btnClipboard.Location = new System.Drawing.Point(42, 411);
+            this.btnClipboard.Location = new System.Drawing.Point(42, 403);
             this.btnClipboard.Name = "btnClipboard";
-            this.btnClipboard.Size = new System.Drawing.Size(162, 23);
+            this.btnClipboard.Size = new System.Drawing.Size(162, 36);
             this.btnClipboard.TabIndex = 4;
             this.btnClipboard.Text = "Copy info to clipboard";
             this.btnClipboard.UseVisualStyleBackColor = true;

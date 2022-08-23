@@ -4,7 +4,7 @@
 707FlashTimer是为英雄联盟设计的闪现技能计时器。它将在游戏内覆盖显示，可以用快捷键快速隐藏或显示窗口。
 
 ## Screenshot 截图展示
-![DEMO!](assets/demo2.png "DEMO")
+![DEMO!](assets/demo1.png "DEMO")
 
 ## In-game Demo 游戏内视频演示
 
