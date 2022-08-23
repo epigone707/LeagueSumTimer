@@ -12,21 +12,33 @@ using System.Threading.Tasks;
 using System.Timers;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
-
+using System.Runtime.InteropServices;
+using Utilities;
 
 namespace LeagueSumTimer
 {
+    
+
     public partial class Form1 : Form
     {
-        public Form1()
+        public const int WM_NCLBUTTONDOWN = 0xA1;
+        public const int HT_CAPTION = 0x2;
+
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        public static extern bool ReleaseCapture();
+
+        private void Form1_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
         {
-            InitializeComponent();
-            Timers[0].Tick += new EventHandler(topTimerEventProcessor);
-            Timers[1].Tick += new EventHandler(jugTimerEventProcessor);
-            Timers[2].Tick += new EventHandler(midTimerEventProcessor);
-            Timers[3].Tick += new EventHandler(botTimerEventProcessor);
-            Timers[4].Tick += new EventHandler(supTimerEventProcessor);
+            if (e.Button == MouseButtons.Left)
+            {
+                ReleaseCapture();
+                SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
+            }
         }
+
+
 
         private int[] FlashTotalCooldown = { 300, 300, 300, 300, 300 };
 
@@ -41,15 +53,74 @@ namespace LeagueSumTimer
             new System.Windows.Forms.Timer(),
             new System.Windows.Forms.Timer(),
         };
+        public static bool flag = true;
+
+        public Form1()
+        {
+            InitializeComponent();
+            Timers[0].Tick += new EventHandler(topTimerEventProcessor);
+            Timers[1].Tick += new EventHandler(jugTimerEventProcessor);
+            Timers[2].Tick += new EventHandler(midTimerEventProcessor);
+            Timers[3].Tick += new EventHandler(botTimerEventProcessor);
+            Timers[4].Tick += new EventHandler(supTimerEventProcessor);
+            this.MouseDown += Form1_MouseDown;
+            this.Load += Form1_Load;
+            this.FormClosed += new FormClosedEventHandler(Form1_Closing);
+        }
+
+        globalKeyboardHook gkh = new globalKeyboardHook();
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Console.WriteLine("Form1_Load...");
+            gkh.HookedKeys.Add(Keys.F1);
+            gkh.KeyDown += new KeyEventHandler(gkh_KeyDown);
+        }
+
+        void gkh_KeyDown(object sender, KeyEventArgs e)
+        {
+            Console.WriteLine("gkh_KeyDown...");
+            if (flag)
+            {
+                this.Hide();
+                flag = false;
+            }
+            else
+            {
+                this.Show();
+                flag = true;
+            }
+
+            e.Handled = true;
+        }
+
+        private void Form1_Closing(object sender, EventArgs e)
+        {
+            Console.WriteLine("Form1_Closing...");
+            gkh.unhook();
+        }
+
 
         private void btnTopFlash_Click(object sender, EventArgs e)
         {
-            
             int role = 0;
+            switch ((sender as Button).Name)
+            {
+                case "btnTopFlash":
+                    Counters[role] = FlashTotalCooldown[role];
+                    break;
+                case "btnTop10":
+                    Counters[role] = FlashTotalCooldown[role] - 10;
+                    break;
+                case "btnTop30":
+                    Counters[role] = FlashTotalCooldown[role] - 30;
+                    break;
+                default:
+                    break;
+            }
+
             Timers[role].Stop();
-            //Console.WriteLine("btnTopFlash_Click...");
             
-            Counters[role] = FlashTotalCooldown[role];
             btnTopFlash.Text = Counters[role].ToString();
             btnTopFlash.BackgroundImage = Properties.Resources.FlashNotReady;
 
@@ -85,7 +156,21 @@ namespace LeagueSumTimer
             //Console.WriteLine("btnJugFlash_Click...");
             
             int role = 1;
-            Counters[role] = FlashTotalCooldown[role];
+
+            switch ((sender as Button).Name)
+            {
+                case "btnJugFlash":
+                    Counters[role] = FlashTotalCooldown[role];
+                    break;
+                case "btnJug10":
+                    Counters[role] = FlashTotalCooldown[role] - 10;
+                    break;
+                case "btnJug30":
+                    Counters[role] = FlashTotalCooldown[role] - 30;
+                    break;
+                default:
+                    break;
+            }
             btnJugFlash.Text = Counters[role].ToString();
             btnJugFlash.BackgroundImage = Properties.Resources.FlashNotReady;
 
@@ -121,7 +206,20 @@ namespace LeagueSumTimer
             //Console.WriteLine("btnJugFlash_Click...");
 
             int role = 2;
-            Counters[role] = FlashTotalCooldown[role];
+            switch ((sender as Button).Name)
+            {
+                case "btnMidFlash":
+                    Counters[role] = FlashTotalCooldown[role];
+                    break;
+                case "btnMid10":
+                    Counters[role] = FlashTotalCooldown[role] - 10;
+                    break;
+                case "btnMid30":
+                    Counters[role] = FlashTotalCooldown[role] - 30;
+                    break;
+                default:
+                    break;
+            }
             btnMidFlash.Text = Counters[role].ToString();
             btnMidFlash.BackgroundImage = Properties.Resources.FlashNotReady;
 
@@ -157,7 +255,20 @@ namespace LeagueSumTimer
             //Console.WriteLine("btnJugFlash_Click...");
 
             int role = 3;
-            Counters[role] = FlashTotalCooldown[role];
+            switch ((sender as Button).Name)
+            {
+                case "btnBotFlash":
+                    Counters[role] = FlashTotalCooldown[role];
+                    break;
+                case "btnBot10":
+                    Counters[role] = FlashTotalCooldown[role] - 10;
+                    break;
+                case "btnBot30":
+                    Counters[role] = FlashTotalCooldown[role] - 30;
+                    break;
+                default:
+                    break;
+            }
             btnBotFlash.Text = Counters[role].ToString();
             btnBotFlash.BackgroundImage = Properties.Resources.FlashNotReady;
 
@@ -193,7 +304,20 @@ namespace LeagueSumTimer
             //Console.WriteLine("btnJugFlash_Click...");
 
             int role = 4;
-            Counters[role] = FlashTotalCooldown[role];
+            switch ((sender as Button).Name)
+            {
+                case "btnSupFlash":
+                    Counters[role] = FlashTotalCooldown[role];
+                    break;
+                case "btnSup10":
+                    Counters[role] = FlashTotalCooldown[role] - 10;
+                    break;
+                case "btnSup30":
+                    Counters[role] = FlashTotalCooldown[role] - 30;
+                    break;
+                default:
+                    break;
+            }
             btnSupFlash.Text = Counters[role].ToString();
             btnSupFlash.BackgroundImage = Properties.Resources.FlashNotReady;
 
@@ -229,7 +353,7 @@ namespace LeagueSumTimer
 
         private void btnClipboard_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("btnClipboard_Click...");
+            
             string cb_text = "Flash cooldown remains: ";
             for (int i = 0; i < Counters.Length; i++)
             {
@@ -237,7 +361,7 @@ namespace LeagueSumTimer
                     cb_text += RoleNames[i] + " " + Counters[i] + "s; ";
                 }
             }
-            
+            Console.WriteLine(cb_text);
             Clipboard.SetText(cb_text);
         }
 

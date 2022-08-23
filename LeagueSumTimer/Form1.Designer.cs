@@ -30,7 +30,7 @@
         {
             this.btnClipboard = new System.Windows.Forms.Button();
             this.btnTop10 = new System.Windows.Forms.Button();
-            this.btntop30 = new System.Windows.Forms.Button();
+            this.btnTop30 = new System.Windows.Forms.Button();
             this.checkBoxTopBoot = new System.Windows.Forms.CheckBox();
             this.checkBoxTopIns = new System.Windows.Forms.CheckBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
@@ -84,15 +84,17 @@
             this.btnTop10.TabIndex = 14;
             this.btnTop10.Text = "-10s";
             this.btnTop10.UseVisualStyleBackColor = true;
+            this.btnTop10.Click += new System.EventHandler(this.btnTopFlash_Click);
             // 
-            // btntop30
+            // btnTop30
             // 
-            this.btntop30.Location = new System.Drawing.Point(156, 43);
-            this.btntop30.Name = "btntop30";
-            this.btntop30.Size = new System.Drawing.Size(48, 28);
-            this.btntop30.TabIndex = 16;
-            this.btntop30.Text = "-30s";
-            this.btntop30.UseVisualStyleBackColor = true;
+            this.btnTop30.Location = new System.Drawing.Point(156, 43);
+            this.btnTop30.Name = "btnTop30";
+            this.btnTop30.Size = new System.Drawing.Size(48, 28);
+            this.btnTop30.TabIndex = 16;
+            this.btnTop30.Text = "-30s";
+            this.btnTop30.UseVisualStyleBackColor = true;
+            this.btnTop30.Click += new System.EventHandler(this.btnTopFlash_Click);
             // 
             // checkBoxTopBoot
             // 
@@ -265,6 +267,7 @@
             this.btnJug30.TabIndex = 20;
             this.btnJug30.Text = "-30s";
             this.btnJug30.UseVisualStyleBackColor = true;
+            this.btnJug30.Click += new System.EventHandler(this.btnJugFlash_Click);
             // 
             // btnJug10
             // 
@@ -274,6 +277,7 @@
             this.btnJug10.TabIndex = 19;
             this.btnJug10.Text = "-10s";
             this.btnJug10.UseVisualStyleBackColor = true;
+            this.btnJug10.Click += new System.EventHandler(this.btnJugFlash_Click);
             // 
             // checkBoxJugIns
             // 
@@ -305,6 +309,7 @@
             this.btnMid30.TabIndex = 24;
             this.btnMid30.Text = "-30s";
             this.btnMid30.UseVisualStyleBackColor = true;
+            this.btnMid30.Click += new System.EventHandler(this.btnMidFlash_Click);
             // 
             // btnMid10
             // 
@@ -314,6 +319,7 @@
             this.btnMid10.TabIndex = 23;
             this.btnMid10.Text = "-10s";
             this.btnMid10.UseVisualStyleBackColor = true;
+            this.btnMid10.Click += new System.EventHandler(this.btnMidFlash_Click);
             // 
             // checkBoxMidIns
             // 
@@ -345,6 +351,7 @@
             this.btnBot30.TabIndex = 28;
             this.btnBot30.Text = "-30s";
             this.btnBot30.UseVisualStyleBackColor = true;
+            this.btnBot30.Click += new System.EventHandler(this.btnBotFlash_Click);
             // 
             // btnBot10
             // 
@@ -354,6 +361,7 @@
             this.btnBot10.TabIndex = 27;
             this.btnBot10.Text = "-10s";
             this.btnBot10.UseVisualStyleBackColor = true;
+            this.btnBot10.Click += new System.EventHandler(this.btnBotFlash_Click);
             // 
             // checkBoxBotIns
             // 
@@ -385,6 +393,7 @@
             this.btnSup30.TabIndex = 32;
             this.btnSup30.Text = "-30s";
             this.btnSup30.UseVisualStyleBackColor = true;
+            this.btnSup30.Click += new System.EventHandler(this.btnSupFlash_Click);
             // 
             // btnSup10
             // 
@@ -394,6 +403,7 @@
             this.btnSup10.TabIndex = 31;
             this.btnSup10.Text = "-10s";
             this.btnSup10.UseVisualStyleBackColor = true;
+            this.btnSup10.Click += new System.EventHandler(this.btnSupFlash_Click);
             // 
             // checkBoxSupIns
             // 
@@ -429,7 +439,7 @@
             this.Controls.Add(this.btnJug10);
             this.Controls.Add(this.checkBoxJugIns);
             this.Controls.Add(this.checkBoxTopBoot);
-            this.Controls.Add(this.btntop30);
+            this.Controls.Add(this.btnTop30);
             this.Controls.Add(this.btnTop10);
             this.Controls.Add(this.checkBoxTopIns);
             this.Controls.Add(this.pictureBox5);
@@ -447,6 +457,7 @@
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(3);
             this.Text = "Form1";
+            this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -471,7 +482,7 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.CheckBox checkBoxTopIns;
         private System.Windows.Forms.Button btnTop10;
-        private System.Windows.Forms.Button btntop30;
+        private System.Windows.Forms.Button btnTop30;
         private System.Windows.Forms.CheckBox checkBoxTopBoot;
         private System.Windows.Forms.CheckBox checkBoxJugBoot;
         private System.Windows.Forms.Button btnJug30;
