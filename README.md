@@ -16,7 +16,7 @@ It doesn't use riot API. It doesn't automatically detect anything. It requires u
 
 There's a flash timer for each enemy. 
 
-There're 3 bottons that can start the flash timer for each enemy. Botton 1 "flash icon" means this enemy just used his/her flash. Botton 2 "-10s" means this enemy used his/her flash 10 seconds ago.  Botton 3 "-30s" means this enemy used his/her flash 30 seconds ago. 
+There're 3 bottons that can start the flash timer for each enemy. Botton "flash icon" means this enemy just used his/her flash. Botton "-10s" means this enemy used his/her flash 10 seconds ago.  Botton "-30s" means this enemy used his/her flash 30 seconds ago. 
 
 There're also two checkboxes for each enemy that refers to the rune "Cosmic Insight" and the item "Ionion Boots of Lucidity". If user checks one or two of those checkboxes, the corresponding enemy's timer will be adjusted to correct cooldown value.
 
