@@ -1,4 +1,6 @@
 # 707FlashTimer
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. 
 
 [中文介绍](#应用介绍)
