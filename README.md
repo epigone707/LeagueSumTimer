@@ -24,6 +24,12 @@ The product can generate a string text containing the enemies' flash cooldown in
 
 User can click "F1" to hide/show the product window.
 
+## Changelog 
+- 2022/8/22 
+Completed version1.0. Submitted the app to riot. Waiting for response.
+- 2022/9/2
+The app is approved by Riot. The next step is to do the in-game testing.
+
 # 应用介绍
 
 707FlashTimer是为英雄联盟设计的闪现技能计时器。它将在游戏内覆盖显示，可以用快捷键快速隐藏或显示窗口。
@@ -42,7 +48,8 @@ User can click "F1" to hide/show the product window.
 
 按下“F1”快捷键，即可快速隐藏/显示应用。
 
-## Changelog 更新日志
+## 更新日志
 - 2022/8/22 
-Completed version1.0. Submitted the app to riot. Waiting for response.
 完成1.0版本。已将应用提交给拳头官方审核。等待回复。
+- 2022/9/2
+已通过拳头官方审核。下一步是游戏内测试。
