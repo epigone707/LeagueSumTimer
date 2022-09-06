@@ -31,6 +31,8 @@ User can click "F1" to hide/show the product window.
 Completed version1.0. Submitted the app to riot. Waiting for response.
 - 2022/9/2
 The app is approved by Riot. The next step is to do the in-game testing.
+- 2022/9/6
+Version 1.0.1 released. Submitted the app to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
 
 # 应用介绍
 
@@ -55,3 +57,5 @@ The app is approved by Riot. The next step is to do the in-game testing.
 完成1.0版本。已将应用提交给拳头官方审核。等待回复。
 - 2022/9/2
 已通过拳头官方审核。下一步是游戏内测试。
+- 2022/9/6
+发布1.0.1版本。由于windows默认阻止很烦，已提交给微软审核。
