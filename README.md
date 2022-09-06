@@ -1,4 +1,6 @@
 # 707FlashTimer
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. 
 
 [中文介绍](#应用介绍)
@@ -16,13 +18,19 @@ It doesn't use riot API. It doesn't automatically detect anything. It requires u
 
 There's a flash timer for each enemy. 
 
-There're 3 bottons that can start the flash timer for each enemy. Botton 1 "flash icon" means this enemy just used his/her flash. Botton 2 "-10s" means this enemy used his/her flash 10 seconds ago.  Botton 3 "-30s" means this enemy used his/her flash 30 seconds ago. 
+There're 3 bottons that can start the flash timer for each enemy. Botton "flash icon" means this enemy just used his/her flash. Botton "-10s" means this enemy used his/her flash 10 seconds ago.  Botton "-30s" means this enemy used his/her flash 30 seconds ago. 
 
 There're also two checkboxes for each enemy that refers to the rune "Cosmic Insight" and the item "Ionion Boots of Lucidity". If user checks one or two of those checkboxes, the corresponding enemy's timer will be adjusted to correct cooldown value.
 
 The product can generate a string text containing the enemies' flash cooldown info to user's clipboard， if the user click the button "Copy info to clipboard". One example of the string text is "Flash cooldown remains: top 298s; bot 269s; "
 
 User can click "F1" to hide/show the product window.
+
+## Changelog 
+- 2022/8/22 
+Completed version1.0. Submitted the app to riot. Waiting for response.
+- 2022/9/2
+The app is approved by Riot. The next step is to do the in-game testing.
 
 # 应用介绍
 
@@ -42,7 +50,8 @@ User can click "F1" to hide/show the product window.
 
 按下“F1”快捷键，即可快速隐藏/显示应用。
 
-## Changelog 更新日志
+## 更新日志
 - 2022/8/22 
-Completed version1.0. Submitted the app to riot. Waiting for response.
 完成1.0版本。已将应用提交给拳头官方审核。等待回复。
+- 2022/9/2
+已通过拳头官方审核。下一步是游戏内测试。
