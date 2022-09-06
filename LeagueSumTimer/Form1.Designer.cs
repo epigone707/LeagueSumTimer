@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnClipboard = new System.Windows.Forms.Button();
             this.btnTop10 = new System.Windows.Forms.Button();
             this.btnTop30 = new System.Windows.Forms.Button();
             this.checkBoxTopBoot = new System.Windows.Forms.CheckBox();
@@ -59,22 +58,13 @@
             this.btnSup30 = new System.Windows.Forms.Button();
             this.btnSup10 = new System.Windows.Forms.Button();
             this.checkBoxSupIns = new System.Windows.Forms.CheckBox();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnClipboard
-            // 
-            this.btnClipboard.Location = new System.Drawing.Point(42, 403);
-            this.btnClipboard.Name = "btnClipboard";
-            this.btnClipboard.Size = new System.Drawing.Size(162, 36);
-            this.btnClipboard.TabIndex = 4;
-            this.btnClipboard.Text = "Copy info to clipboard";
-            this.btnClipboard.UseVisualStyleBackColor = true;
-            this.btnClipboard.Click += new System.EventHandler(this.btnClipboard_Click);
             // 
             // btnTop10
             // 
@@ -416,12 +406,23 @@
             this.checkBoxSupIns.UseVisualStyleBackColor = true;
             this.checkBoxSupIns.CheckedChanged += new System.EventHandler(this.checkBoxSup_CheckedChanged);
             // 
+            // label1
+            // 
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label1.Location = new System.Drawing.Point(19, 407);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(221, 15);
+            this.label1.TabIndex = 34;
+            this.label1.Text = "Click F1 to hide/show this panel";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(263, 445);
+            this.ClientSize = new System.Drawing.Size(260, 435);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBoxSupBoot);
             this.Controls.Add(this.btnSup30);
             this.Controls.Add(this.btnSup10);
@@ -442,7 +443,6 @@
             this.Controls.Add(this.btnTop30);
             this.Controls.Add(this.btnTop10);
             this.Controls.Add(this.checkBoxTopIns);
-            this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -450,9 +450,9 @@
             this.Controls.Add(this.btnBotFlash);
             this.Controls.Add(this.btnMidFlash);
             this.Controls.Add(this.btnJugFlash);
-            this.Controls.Add(this.btnClipboard);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnTopFlash);
+            this.Controls.Add(this.pictureBox5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(3);
@@ -471,7 +471,7 @@
 
         private System.Windows.Forms.Button btnTopFlash;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnClipboard;
+        //private System.Windows.Forms.Button btnClipboard;
         private System.Windows.Forms.Button btnJugFlash;
         private System.Windows.Forms.Button btnMidFlash;
         private System.Windows.Forms.Button btnBotFlash;
@@ -500,6 +500,7 @@
         private System.Windows.Forms.Button btnSup30;
         private System.Windows.Forms.Button btnSup10;
         private System.Windows.Forms.CheckBox checkBoxSupIns;
+        private System.Windows.Forms.Label label1;
     }
 }
 

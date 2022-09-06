@@ -57,7 +57,9 @@ namespace LeagueSumTimer
 
         public Form1()
         {
+
             InitializeComponent();
+            //this.Opacity = .75;
             Timers[0].Tick += new EventHandler(topTimerEventProcessor);
             Timers[1].Tick += new EventHandler(jugTimerEventProcessor);
             Timers[2].Tick += new EventHandler(midTimerEventProcessor);
@@ -65,6 +67,12 @@ namespace LeagueSumTimer
             Timers[4].Tick += new EventHandler(supTimerEventProcessor);
             this.MouseDown += Form1_MouseDown;
             this.Load += Form1_Load;
+            this.pictureBox1.MouseDown += Form1_MouseDown;
+            this.pictureBox2.MouseDown += Form1_MouseDown;
+            this.pictureBox3.MouseDown += Form1_MouseDown;
+            this.pictureBox4.MouseDown += Form1_MouseDown;
+            this.pictureBox5.MouseDown += Form1_MouseDown;
+            this.label1.MouseDown += Form1_MouseDown;
             this.FormClosed += new FormClosedEventHandler(Form1_Closing);
         }
 
@@ -351,19 +359,19 @@ namespace LeagueSumTimer
 
 
 
-        private void btnClipboard_Click(object sender, EventArgs e)
-        {
+        //private void btnClipboard_Click(object sender, EventArgs e)
+        //{
             
-            string cb_text = "Flash cooldown remains: ";
-            for (int i = 0; i < Counters.Length; i++)
-            {
-                if (Counters[i] != 0){
-                    cb_text += RoleNames[i] + " " + Counters[i] + "s; ";
-                }
-            }
-            Console.WriteLine(cb_text);
-            Clipboard.SetText(cb_text);
-        }
+        //    string cb_text = "Flash cooldown remains: ";
+        //    for (int i = 0; i < Counters.Length; i++)
+        //    {
+        //        if (Counters[i] != 0){
+        //            cb_text += RoleNames[i] + " " + Counters[i] + "s; ";
+        //        }
+        //    }
+        //    Console.WriteLine(cb_text);
+        //    Clipboard.SetText(cb_text);
+        //}
 
         private void checkBoxTop_CheckedChanged(object sender, EventArgs e)
         {
