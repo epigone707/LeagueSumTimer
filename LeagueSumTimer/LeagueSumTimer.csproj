@@ -7,7 +7,7 @@
     <ProjectGuid>{FCC8068B-91D4-45E0-A79D-5648E8D14E98}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>LeagueSumTimer</RootNamespace>
-    <AssemblyName>LeagueSumTimer</AssemblyName>
+    <AssemblyName>707FlashTimer</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,6 +31,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Untitled.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -122,6 +125,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="assets\Boots.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Untitled.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
