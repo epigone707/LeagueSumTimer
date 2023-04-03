@@ -1,7 +1,7 @@
 # 707FlashTimer
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. 
+707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. The app is approved by Riot and safe to use.
 
 [中文介绍](#应用介绍)
 
@@ -19,9 +19,9 @@ TODO
 
 - There's a flash timer for each enemy. 
 
-- There're 3 bottons that can start the flash timer for each enemy. Botton "flash icon" means this enemy just used his/her flash. Botton "-10s" means this enemy used his/her flash 10 seconds ago.  Botton "-30s" means this enemy used his/her flash 30 seconds ago. 
+- There're 3 buttons that can start the flash timer for each enemy. Button "flash icon" means this enemy just used his/her flash. Button "-10s" means this enemy used  flash 10 seconds ago.  Button "-30s" means this enemy used flash 30 seconds ago. 
 
-- There're also two checkboxes for each enemy that refers to the rune "Cosmic Insight" and the item "Ionion Boots of Lucidity". If user checks one or two of those checkboxes, the corresponding enemy's timer will be adjusted to correct cooldown value.
+- There're two checkboxes for each enemy that refers to the rune "Cosmic Insight" and the item "Ionion Boots of Lucidity". If user checks one or two of those checkboxes, the corresponding enemy's timer will be adjusted to correct cooldown value.
 
 - The product can generate a string text containing the enemies' flash cooldown info to user's clipboard， if the user click the button "Copy info to clipboard". One example of the string text is "Flash cooldown remains: top 298s; bot 269s; " (TODO, need to use macro instead of normal clipboard)
 
