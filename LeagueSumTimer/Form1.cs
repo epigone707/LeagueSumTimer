@@ -10,10 +10,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
+using System.Windows.Input;
 using System.Windows.Forms;
+//
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
 using System.Runtime.InteropServices;
 using Utilities;
+//using KeyEventHandler = System.Windows.Forms.KeyEventHandler;
 
 namespace LeagueSumTimer
 {
@@ -39,12 +42,20 @@ namespace LeagueSumTimer
         }
 
 
-
+        // the total cooldown values for each role
+        // may be changed if the corresponding enemy take the specific rune or item
         private int[] FlashTotalCooldown = { 300, 300, 300, 300, 300 };
 
+        // names for each enemy
         string[] RoleNames = { "top", "jug", "mid", "bot", "sup" };
+
+        // flash counters for each enemy
         static int [] Counters = { 0, 0, 0, 0, 0 };
+
+        // exit flags for each enemy
         static bool [] ExitFlags = { false, false, false, false, false };
+
+        // timer for each enemy
         static System.Windows.Forms.Timer[] Timers =
         {
             new System.Windows.Forms.Timer(),
@@ -53,6 +64,8 @@ namespace LeagueSumTimer
             new System.Windows.Forms.Timer(),
             new System.Windows.Forms.Timer(),
         };
+
+        // flag used for show/hide the form
         public static bool flag = true;
 
         public Form1()
@@ -82,20 +95,48 @@ namespace LeagueSumTimer
         {
             Console.WriteLine("Form1_Load...");
             gkh.HookedKeys.Add(Keys.F1);
-            gkh.KeyDown += new KeyEventHandler(gkh_KeyDown);
+            gkh.KeyDown += new System.Windows.Forms.KeyEventHandler(gkh_KeyDown);
+
+            // thread that prints the cooldown info to in-game team chatbox
+            Thread t = new Thread(() =>
+            {
+                while (true)
+                {
+                    if (Keyboard.IsKeyDown(Key.F2))
+                    {
+                        string text = "flash cd: ";
+                        for (int i = 0; i < Counters.Length; i++)
+                        {
+                            if (Counters[i] != 0)
+                            {
+                                text += RoleNames[i] + " " + Counters[i] + "s; ";
+                            }
+                        }
+                        SendKeys.SendWait("{ENTER}");
+                        SendKeys.SendWait(text);
+                        SendKeys.SendWait("{ENTER}");
+                    }
+                }
+            });
+            t.IsBackground = true;
+            t.SetApartmentState(ApartmentState.STA);
+            t.Start();
         }
 
-        void gkh_KeyDown(object sender, KeyEventArgs e)
+
+
+        // show/hide the form
+        void gkh_KeyDown(object sender, System.Windows.Forms.KeyEventArgs e)
         {
             Console.WriteLine("gkh_KeyDown...");
             if (flag)
             {
-                this.Hide();
+                Hide();
                 flag = false;
             }
             else
             {
-                this.Show();
+                Show();
                 flag = true;
             }
 
