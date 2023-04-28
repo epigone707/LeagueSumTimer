@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnTop10 = new System.Windows.Forms.Button();
             this.btnTop30 = new System.Windows.Forms.Button();
             this.checkBoxTopBoot = new System.Windows.Forms.CheckBox();
@@ -455,6 +456,7 @@
             this.Controls.Add(this.btnTopFlash);
             this.Controls.Add(this.pictureBox5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Padding = new System.Windows.Forms.Padding(3);
             this.Text = "Form1";
