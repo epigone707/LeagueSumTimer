@@ -6,11 +6,13 @@
 [中文介绍](#应用介绍)
 
 ## Screenshot
-![DEMO!](assets/demo1.png "DEMO")
+![DEMO!](assets/demo.png "DEMO")
+
+![DEMO!](assets/demo_chat.png "DEMOchat")
 
 ## In-game Demo
 
-TODO
+[Demo](https://youtu.be/L2pIBS5HBS0)
 
 ## Features 
 
