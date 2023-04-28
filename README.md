@@ -42,7 +42,10 @@ Version 1.0.1 released. Submitted it to [Microsoft Malware Analysis](https://www
 Version 1.1.0 released. Submitted it to Riot. Waiting for response.
 
 ## Download
-https://github.com/epigone707/LeagueSumTimer/releases/download/1.1.0/707FlashTimer.exe
+https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (approved by Riot)
+
+https://github.com/epigone707/LeagueSumTimer/releases/download/1.1.0/707FlashTimer.exe (pre-released)
+
 
 # 应用介绍
 
