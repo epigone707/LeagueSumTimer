@@ -31,11 +31,16 @@
 
 ## Changelog 
 - 2022/8/22 
-Completed version1.0. Submitted the app to riot. Waiting for response.
+Version 1.0 released. Submitted the app to riot. Waiting for response.
 - 2022/9/2
-The app is approved by Riot. The next step is to do the in-game testing.
+Version 1.0 is approved by Riot. The next step is to do the in-game testing.
 - 2022/9/6
-Version 1.0.1 released. Submitted the app to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
+Version 1.0.1 released. Submitted it to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
+- 2023/4/28
+Version 1.1.0 released. Submitted it to Riot. Waiting for response.
+
+## Download
+https://github.com/epigone707/LeagueSumTimer/releases/download/1.1.0/707FlashTimer.exe
 
 # 应用介绍
 
@@ -56,11 +61,3 @@ Version 1.0.1 released. Submitted the app to [Microsoft Malware Analysis](https:
 - 按下“F1”快捷键，可快速隐藏/显示应用。
 
 **注意：请将英雄联盟客户端显示模式设置成“无边框”。如果使用“全屏”显示模式，当你按下“F1”快捷键时会被强制返回桌面**
-
-## 更新日志
-- 2022/8/22 
-完成1.0版本。已将应用提交给拳头官方审核。等待回复。
-- 2022/9/2
-已通过拳头官方审核。下一步是游戏内测试。
-- 2022/9/6
-发布1.0.1版本。由于windows默认阻止很烦，已提交给微软审核。
