@@ -69,7 +69,7 @@
             // 
             // btnTop10
             // 
-            this.btnTop10.Location = new System.Drawing.Point(156, 6);
+            this.btnTop10.Location = new System.Drawing.Point(129, 6);
             this.btnTop10.Name = "btnTop10";
             this.btnTop10.Size = new System.Drawing.Size(48, 28);
             this.btnTop10.TabIndex = 14;
@@ -79,7 +79,7 @@
             // 
             // btnTop30
             // 
-            this.btnTop30.Location = new System.Drawing.Point(156, 43);
+            this.btnTop30.Location = new System.Drawing.Point(129, 43);
             this.btnTop30.Name = "btnTop30";
             this.btnTop30.Size = new System.Drawing.Size(48, 28);
             this.btnTop30.TabIndex = 16;
@@ -91,7 +91,7 @@
             // 
             this.checkBoxTopBoot.BackgroundImage = global::LeagueSumTimer.Properties.Resources.Boots;
             this.checkBoxTopBoot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxTopBoot.Location = new System.Drawing.Point(207, 6);
+            this.checkBoxTopBoot.Location = new System.Drawing.Point(180, 6);
             this.checkBoxTopBoot.Name = "checkBoxTopBoot";
             this.checkBoxTopBoot.Size = new System.Drawing.Size(62, 31);
             this.checkBoxTopBoot.TabIndex = 17;
@@ -102,7 +102,7 @@
             // 
             this.checkBoxTopIns.BackgroundImage = global::LeagueSumTimer.Properties.Resources.CosmicInsight;
             this.checkBoxTopIns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxTopIns.Location = new System.Drawing.Point(207, 40);
+            this.checkBoxTopIns.Location = new System.Drawing.Point(180, 40);
             this.checkBoxTopIns.Name = "checkBoxTopIns";
             this.checkBoxTopIns.Size = new System.Drawing.Size(62, 31);
             this.checkBoxTopIns.TabIndex = 13;
@@ -114,7 +114,7 @@
             this.pictureBox5.Image = global::LeagueSumTimer.Properties.Resources.SUPPORT;
             this.pictureBox5.Location = new System.Drawing.Point(6, 323);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(72, 65);
+            this.pictureBox5.Size = new System.Drawing.Size(45, 45);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 12;
             this.pictureBox5.TabStop = false;
@@ -124,7 +124,7 @@
             this.pictureBox4.Image = global::LeagueSumTimer.Properties.Resources.ADC;
             this.pictureBox4.Location = new System.Drawing.Point(6, 245);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(72, 65);
+            this.pictureBox4.Size = new System.Drawing.Size(45, 45);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
@@ -134,7 +134,7 @@
             this.pictureBox3.Image = global::LeagueSumTimer.Properties.Resources.MIDDLE;
             this.pictureBox3.Location = new System.Drawing.Point(6, 164);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(72, 65);
+            this.pictureBox3.Size = new System.Drawing.Size(45, 45);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 10;
             this.pictureBox3.TabStop = false;
@@ -144,7 +144,7 @@
             this.pictureBox2.Image = global::LeagueSumTimer.Properties.Resources.JUNGLE;
             this.pictureBox2.Location = new System.Drawing.Point(6, 86);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(72, 65);
+            this.pictureBox2.Size = new System.Drawing.Size(45, 45);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
@@ -157,7 +157,7 @@
             this.btnSupFlash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSupFlash.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSupFlash.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnSupFlash.Location = new System.Drawing.Point(81, 323);
+            this.btnSupFlash.Location = new System.Drawing.Point(54, 323);
             this.btnSupFlash.Margin = new System.Windows.Forms.Padding(0);
             this.btnSupFlash.Name = "btnSupFlash";
             this.btnSupFlash.Size = new System.Drawing.Size(64, 64);
@@ -169,11 +169,12 @@
             // 
             this.btnBotFlash.BackgroundImage = global::LeagueSumTimer.Properties.Resources.Flash;
             this.btnBotFlash.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnBotFlash.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnBotFlash.FlatAppearance.BorderSize = 0;
             this.btnBotFlash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBotFlash.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBotFlash.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnBotFlash.Location = new System.Drawing.Point(81, 245);
+            this.btnBotFlash.Location = new System.Drawing.Point(54, 245);
             this.btnBotFlash.Margin = new System.Windows.Forms.Padding(0);
             this.btnBotFlash.Name = "btnBotFlash";
             this.btnBotFlash.Size = new System.Drawing.Size(64, 64);
@@ -189,7 +190,7 @@
             this.btnMidFlash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMidFlash.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMidFlash.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnMidFlash.Location = new System.Drawing.Point(81, 165);
+            this.btnMidFlash.Location = new System.Drawing.Point(54, 165);
             this.btnMidFlash.Margin = new System.Windows.Forms.Padding(0);
             this.btnMidFlash.Name = "btnMidFlash";
             this.btnMidFlash.Size = new System.Drawing.Size(64, 64);
@@ -205,7 +206,7 @@
             this.btnJugFlash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnJugFlash.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJugFlash.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnJugFlash.Location = new System.Drawing.Point(81, 86);
+            this.btnJugFlash.Location = new System.Drawing.Point(54, 86);
             this.btnJugFlash.Margin = new System.Windows.Forms.Padding(0);
             this.btnJugFlash.Name = "btnJugFlash";
             this.btnJugFlash.Size = new System.Drawing.Size(64, 64);
@@ -218,7 +219,7 @@
             this.pictureBox1.Image = global::LeagueSumTimer.Properties.Resources.TOP;
             this.pictureBox1.Location = new System.Drawing.Point(6, 6);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(72, 65);
+            this.pictureBox1.Size = new System.Drawing.Size(45, 45);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -231,7 +232,7 @@
             this.btnTopFlash.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTopFlash.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTopFlash.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnTopFlash.Location = new System.Drawing.Point(81, 6);
+            this.btnTopFlash.Location = new System.Drawing.Point(54, 6);
             this.btnTopFlash.Margin = new System.Windows.Forms.Padding(0);
             this.btnTopFlash.Name = "btnTopFlash";
             this.btnTopFlash.Size = new System.Drawing.Size(64, 64);
@@ -243,7 +244,7 @@
             // 
             this.checkBoxJugBoot.BackgroundImage = global::LeagueSumTimer.Properties.Resources.Boots;
             this.checkBoxJugBoot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxJugBoot.Location = new System.Drawing.Point(207, 86);
+            this.checkBoxJugBoot.Location = new System.Drawing.Point(180, 86);
             this.checkBoxJugBoot.Name = "checkBoxJugBoot";
             this.checkBoxJugBoot.Size = new System.Drawing.Size(62, 31);
             this.checkBoxJugBoot.TabIndex = 21;
@@ -252,7 +253,7 @@
             // 
             // btnJug30
             // 
-            this.btnJug30.Location = new System.Drawing.Point(156, 123);
+            this.btnJug30.Location = new System.Drawing.Point(129, 123);
             this.btnJug30.Name = "btnJug30";
             this.btnJug30.Size = new System.Drawing.Size(48, 28);
             this.btnJug30.TabIndex = 20;
@@ -262,7 +263,8 @@
             // 
             // btnJug10
             // 
-            this.btnJug10.Location = new System.Drawing.Point(156, 86);
+            this.btnJug10.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnJug10.Location = new System.Drawing.Point(129, 86);
             this.btnJug10.Name = "btnJug10";
             this.btnJug10.Size = new System.Drawing.Size(48, 28);
             this.btnJug10.TabIndex = 19;
@@ -274,7 +276,7 @@
             // 
             this.checkBoxJugIns.BackgroundImage = global::LeagueSumTimer.Properties.Resources.CosmicInsight;
             this.checkBoxJugIns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxJugIns.Location = new System.Drawing.Point(207, 120);
+            this.checkBoxJugIns.Location = new System.Drawing.Point(180, 120);
             this.checkBoxJugIns.Name = "checkBoxJugIns";
             this.checkBoxJugIns.Size = new System.Drawing.Size(62, 31);
             this.checkBoxJugIns.TabIndex = 18;
@@ -285,7 +287,7 @@
             // 
             this.checkBoxMidBoot.BackgroundImage = global::LeagueSumTimer.Properties.Resources.Boots;
             this.checkBoxMidBoot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxMidBoot.Location = new System.Drawing.Point(207, 164);
+            this.checkBoxMidBoot.Location = new System.Drawing.Point(180, 164);
             this.checkBoxMidBoot.Name = "checkBoxMidBoot";
             this.checkBoxMidBoot.Size = new System.Drawing.Size(62, 31);
             this.checkBoxMidBoot.TabIndex = 25;
@@ -294,7 +296,7 @@
             // 
             // btnMid30
             // 
-            this.btnMid30.Location = new System.Drawing.Point(156, 201);
+            this.btnMid30.Location = new System.Drawing.Point(129, 201);
             this.btnMid30.Name = "btnMid30";
             this.btnMid30.Size = new System.Drawing.Size(48, 28);
             this.btnMid30.TabIndex = 24;
@@ -304,7 +306,7 @@
             // 
             // btnMid10
             // 
-            this.btnMid10.Location = new System.Drawing.Point(156, 164);
+            this.btnMid10.Location = new System.Drawing.Point(129, 164);
             this.btnMid10.Name = "btnMid10";
             this.btnMid10.Size = new System.Drawing.Size(48, 28);
             this.btnMid10.TabIndex = 23;
@@ -316,7 +318,7 @@
             // 
             this.checkBoxMidIns.BackgroundImage = global::LeagueSumTimer.Properties.Resources.CosmicInsight;
             this.checkBoxMidIns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxMidIns.Location = new System.Drawing.Point(207, 198);
+            this.checkBoxMidIns.Location = new System.Drawing.Point(180, 198);
             this.checkBoxMidIns.Name = "checkBoxMidIns";
             this.checkBoxMidIns.Size = new System.Drawing.Size(62, 31);
             this.checkBoxMidIns.TabIndex = 22;
@@ -327,7 +329,7 @@
             // 
             this.checkBoxBotBoot.BackgroundImage = global::LeagueSumTimer.Properties.Resources.Boots;
             this.checkBoxBotBoot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxBotBoot.Location = new System.Drawing.Point(207, 245);
+            this.checkBoxBotBoot.Location = new System.Drawing.Point(180, 245);
             this.checkBoxBotBoot.Name = "checkBoxBotBoot";
             this.checkBoxBotBoot.Size = new System.Drawing.Size(62, 31);
             this.checkBoxBotBoot.TabIndex = 29;
@@ -336,7 +338,8 @@
             // 
             // btnBot30
             // 
-            this.btnBot30.Location = new System.Drawing.Point(156, 282);
+            this.btnBot30.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnBot30.Location = new System.Drawing.Point(129, 282);
             this.btnBot30.Name = "btnBot30";
             this.btnBot30.Size = new System.Drawing.Size(48, 28);
             this.btnBot30.TabIndex = 28;
@@ -346,7 +349,8 @@
             // 
             // btnBot10
             // 
-            this.btnBot10.Location = new System.Drawing.Point(156, 245);
+            this.btnBot10.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnBot10.Location = new System.Drawing.Point(129, 245);
             this.btnBot10.Name = "btnBot10";
             this.btnBot10.Size = new System.Drawing.Size(48, 28);
             this.btnBot10.TabIndex = 27;
@@ -358,7 +362,7 @@
             // 
             this.checkBoxBotIns.BackgroundImage = global::LeagueSumTimer.Properties.Resources.CosmicInsight;
             this.checkBoxBotIns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxBotIns.Location = new System.Drawing.Point(207, 279);
+            this.checkBoxBotIns.Location = new System.Drawing.Point(180, 279);
             this.checkBoxBotIns.Name = "checkBoxBotIns";
             this.checkBoxBotIns.Size = new System.Drawing.Size(62, 31);
             this.checkBoxBotIns.TabIndex = 26;
@@ -369,7 +373,7 @@
             // 
             this.checkBoxSupBoot.BackgroundImage = global::LeagueSumTimer.Properties.Resources.Boots;
             this.checkBoxSupBoot.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxSupBoot.Location = new System.Drawing.Point(207, 323);
+            this.checkBoxSupBoot.Location = new System.Drawing.Point(180, 323);
             this.checkBoxSupBoot.Name = "checkBoxSupBoot";
             this.checkBoxSupBoot.Size = new System.Drawing.Size(62, 31);
             this.checkBoxSupBoot.TabIndex = 33;
@@ -378,7 +382,7 @@
             // 
             // btnSup30
             // 
-            this.btnSup30.Location = new System.Drawing.Point(156, 360);
+            this.btnSup30.Location = new System.Drawing.Point(129, 360);
             this.btnSup30.Name = "btnSup30";
             this.btnSup30.Size = new System.Drawing.Size(48, 28);
             this.btnSup30.TabIndex = 32;
@@ -388,7 +392,7 @@
             // 
             // btnSup10
             // 
-            this.btnSup10.Location = new System.Drawing.Point(156, 323);
+            this.btnSup10.Location = new System.Drawing.Point(129, 323);
             this.btnSup10.Name = "btnSup10";
             this.btnSup10.Size = new System.Drawing.Size(48, 28);
             this.btnSup10.TabIndex = 31;
@@ -400,7 +404,7 @@
             // 
             this.checkBoxSupIns.BackgroundImage = global::LeagueSumTimer.Properties.Resources.CosmicInsight;
             this.checkBoxSupIns.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.checkBoxSupIns.Location = new System.Drawing.Point(207, 357);
+            this.checkBoxSupIns.Location = new System.Drawing.Point(180, 357);
             this.checkBoxSupIns.Name = "checkBoxSupIns";
             this.checkBoxSupIns.Size = new System.Drawing.Size(62, 31);
             this.checkBoxSupIns.TabIndex = 30;
@@ -410,20 +414,17 @@
             // label1
             // 
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(19, 407);
+            this.label1.Location = new System.Drawing.Point(6, 401);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(221, 15);
             this.label1.TabIndex = 34;
-            this.label1.Text = "Click F1 to hide/show this panel";
+            this.label1.Text = "F1 to hide/show; F2 to easy print";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.ClientSize = new System.Drawing.Size(260, 435);
+            this.ClientSize = new System.Drawing.Size(238, 436);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.checkBoxSupBoot);
             this.Controls.Add(this.btnSup30);

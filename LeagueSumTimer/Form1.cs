@@ -100,21 +100,20 @@ namespace LeagueSumTimer
             // thread that prints the cooldown info to in-game team chatbox
             Thread t = new Thread(() =>
             {
-                while (true)
+            while (true)
+            {
+                if (Keyboard.IsKeyDown(Key.F2))
                 {
-                    if (Keyboard.IsKeyDown(Key.F2))
+                    string text = "flash: ";
+                    for (int i = 0; i < Counters.Length; i++)
                     {
-                        string text = "flash cd: ";
-                        for (int i = 0; i < Counters.Length; i++)
+                        if (Counters[i] != 0)
                         {
-                            if (Counters[i] != 0)
-                            {
-                                text += RoleNames[i] + " " + Counters[i] + "s; ";
-                            }
+                            text += RoleNames[i] + " " + Counters[i] + "s; ";
                         }
-                        SendKeys.SendWait("{ENTER}");
-                        SendKeys.SendWait(text);
-                        SendKeys.SendWait("{ENTER}");
+                    }
+                    SendKeys.SendWait(text);
+                    SendKeys.SendWait("{ENTER}");
                     }
                 }
             });
@@ -131,12 +130,16 @@ namespace LeagueSumTimer
             Console.WriteLine("gkh_KeyDown...");
             if (flag)
             {
-                Hide();
+                //Hide();
+                //Visible = false;
+                WindowState = FormWindowState.Minimized;
                 flag = false;
             }
             else
             {
-                Show();
+                //Show();
+                //Visible = true;
+                WindowState = FormWindowState.Normal;
                 flag = true;
             }
 
