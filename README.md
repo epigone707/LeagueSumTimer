@@ -1,6 +1,6 @@
 # 707FlashTimer
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?&style=Flat&logo=riotgames&logoColor=white)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?&style=for-the-badge&logo=riotgames&logoColor=white)
 
 
 707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. The app is approved by Riot and safe to use. 
