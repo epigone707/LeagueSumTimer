@@ -37,16 +37,16 @@ The developer of this app (yes it's me) is a sole rank Master player (support ma
 - 2022/8/22 
 Version 1.0 released. Submitted the app to riot. Waiting for response.
 - 2022/9/2
-Version 1.0 is approved by Riot. The next step is to do the in-game testing.
+Version 1.0 is APPROVED by Riot. The next step is to do the in-game testing.
 - 2022/9/6
 Version 1.0.1 released. Submitted it to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
 - 2023/4/28
 Version 1.1.0 released. Submitted it to Riot. Waiting for response.
 - 2023/5/7
-Version 1.1.0 is rejected by Riot. F**kkkkkkkkkkkkkkk.
+Version 1.1.0 is rejected by Riot due to the new Easy Print feature. Please use Version 1.0.1.
 
 ## Download
-https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (approved by Riot)
+https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (Version 1.0.1, approved by Riot)
 
 
 # 应用介绍
