@@ -12,11 +12,11 @@ The developer of this app (yes it's me) is a sole rank Master player (support ma
 ## Screenshot
 ![DEMO!](assets/demo.png "DEMO")
 
-![DEMO!](assets/demo_chat.png "DEMOchat")
+![DEMO!](assets/demo_chat.png "DEMOchat") (Version 1.1.0)
 
 ## In-game Demo
 
-[Demo](https://youtu.be/L2pIBS5HBS0)
+[Demo](https://youtu.be/L2pIBS5HBS0) (Version 1.1.0)
 
 ## Features 
 
@@ -26,7 +26,7 @@ The developer of this app (yes it's me) is a sole rank Master player (support ma
 
 - Flash Expert: There're 2 checkboxes for each enemy that refers to the rune "Cosmic Insight" and the item "Ionion Boots of Lucidity". If user checks one or two of those checkboxes, the corresponding enemy's timer will be adjusted to correct cooldown value.
 
-- Easy Print: Open the chatbox and click "F2" to print the flash cooldown info to team chatbox. e.g.，"flash: top 298s; bot 269s; "
+- Easy Print: Open the chatbox and click "F2" to print the flash cooldown info to team chatbox. e.g.，"flash: top 298s; bot 269s; " (Version 1.1.0)
 
 - Hide/Show: click "F1" to hide/show the window. 
 
@@ -42,11 +42,11 @@ Version 1.0 is approved by Riot. The next step is to do the in-game testing.
 Version 1.0.1 released. Submitted it to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
 - 2023/4/28
 Version 1.1.0 released. Submitted it to Riot. Waiting for response.
+- 2023/5/7
+Version 1.1.0 is rejected by Riot. F**kkkkkkkkkkkkkkk.
 
 ## Download
 https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (approved by Riot)
-
-https://github.com/epigone707/LeagueSumTimer/releases/download/1.1.0/707FlashTimer.exe (pre-released)
 
 
 # 应用介绍
