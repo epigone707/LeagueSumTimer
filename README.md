@@ -33,7 +33,7 @@ TODO
 - 2022/8/22 
 Version 1.0 released. Submitted the app to riot. Waiting for response.
 - 2022/9/2
-Version 1.0 is APPROVED by Riot. The next step is to do the in-game testing.
+**Version 1.0 is APPROVED by Riot.** The next step is to do the in-game testing.
 - 2022/9/6
 Version 1.0.1 released. Submitted it to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
 - 2023/4/28
