@@ -418,7 +418,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(221, 15);
             this.label1.TabIndex = 34;
-            this.label1.Text = "F1 to hide/show; F2 to easy print";
+            this.label1.Text = "F1 to hide/show";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
