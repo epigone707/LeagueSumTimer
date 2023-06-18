@@ -1,20 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Security.Policy;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Timers;
-using System.Windows.Input;
+//using System.Collections.Generic;
+//using System.ComponentModel;
+//using System.Data;
+//using System.Drawing;
+//using System.Linq;
+//using System.Security.Cryptography;
+//using System.Security.Policy;
+//using System.Text;
+//using System.Threading;
+//using System.Threading.Tasks;
+//using System.Timers;
+//using System.Windows.Input;
 using System.Windows.Forms;
-//
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
-using System.Runtime.InteropServices;
+
+//using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
+//using System.Runtime.InteropServices;
 using Utilities;
 //using KeyEventHandler = System.Windows.Forms.KeyEventHandler;
 
@@ -98,28 +98,28 @@ namespace LeagueSumTimer
             gkh.KeyDown += new System.Windows.Forms.KeyEventHandler(gkh_KeyDown);
 
             // thread that prints the cooldown info to in-game team chatbox
-            Thread t = new Thread(() =>
-            {
-            while (true)
-            {
-                if (Keyboard.IsKeyDown(Key.F2))
-                {
-                    string text = "flash: ";
-                    for (int i = 0; i < Counters.Length; i++)
-                    {
-                        if (Counters[i] != 0)
-                        {
-                            text += RoleNames[i] + " " + Counters[i] + "s; ";
-                        }
-                    }
-                    SendKeys.SendWait(text);
-                    SendKeys.SendWait("{ENTER}");
-                    }
-                }
-            });
-            t.IsBackground = true;
-            t.SetApartmentState(ApartmentState.STA);
-            t.Start();
+            //Thread t = new Thread(() =>
+            //{
+            //while (true)
+            //{
+            //    if (Keyboard.IsKeyDown(Key.F2))
+            //    {
+            //        string text = "flash: ";
+            //        for (int i = 0; i < Counters.Length; i++)
+            //        {
+            //            if (Counters[i] != 0)
+            //            {
+            //                text += RoleNames[i] + " " + Counters[i] + "s; ";
+            //            }
+            //        }
+            //        SendKeys.SendWait(text);
+            //        SendKeys.SendWait("{ENTER}");
+            //        }
+            //    }
+            //});
+            //t.IsBackground = true;
+            //t.SetApartmentState(ApartmentState.STA);
+            //t.Start();
         }
 
 
@@ -401,21 +401,6 @@ namespace LeagueSumTimer
         }
 
 
-
-
-        //private void btnClipboard_Click(object sender, EventArgs e)
-        //{
-            
-        //    string cb_text = "Flash cooldown remains: ";
-        //    for (int i = 0; i < Counters.Length; i++)
-        //    {
-        //        if (Counters[i] != 0){
-        //            cb_text += RoleNames[i] + " " + Counters[i] + "s; ";
-        //        }
-        //    }
-        //    Console.WriteLine(cb_text);
-        //    Clipboard.SetText(cb_text);
-        //}
 
         private void checkBoxTop_CheckedChanged(object sender, EventArgs e)
         {
