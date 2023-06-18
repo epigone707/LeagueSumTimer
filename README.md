@@ -1,16 +1,22 @@
 # 707FlashTimer
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?&style=for-the-badge&logo=riotgames&logoColor=white)
 
-707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. The app is approved by Riot and safe to use.
+
+707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. The app is approved by Riot and safe to use. 
+
+The developer of this app (yes it's me) is a sole rank Master player (support main).
 
 [中文介绍](#应用介绍)
 
 ## Screenshot
-![DEMO!](assets/demo1.png "DEMO")
+![DEMO!](assets/demo.png "DEMO")
+
+![DEMO!](assets/demo_chat.png "DEMOchat") (Version 1.1.0)
 
 ## In-game Demo
 
-TODO
+[Demo](https://youtu.be/L2pIBS5HBS0) (Version 1.1.0)
 
 ## Features 
 
@@ -20,7 +26,7 @@ TODO
 
 - Flash Expert: There're 2 checkboxes for each enemy that refers to the rune "Cosmic Insight" and the item "Ionion Boots of Lucidity". If user checks one or two of those checkboxes, the corresponding enemy's timer will be adjusted to correct cooldown value.
 
-- Easy Print: Open the chatbox and click "F2" to print the flash cooldown info to team chatbox. e.g.，"flash: top 298s; bot 269s; "
+- Easy Print: Open the chatbox and click "F2" to print the flash cooldown info to team chatbox. e.g.，"flash: top 298s; bot 269s; " (Version 1.1.0)
 
 - Hide/Show: click "F1" to hide/show the window. 
 
@@ -29,11 +35,19 @@ TODO
 
 ## Changelog 
 - 2022/8/22 
-Completed version1.0. Submitted the app to riot. Waiting for response.
+Version 1.0 released. Submitted the app to riot. Waiting for response.
 - 2022/9/2
-The app is approved by Riot. The next step is to do the in-game testing.
+Version 1.0 is APPROVED by Riot. The next step is to do the in-game testing.
 - 2022/9/6
-Version 1.0.1 released. Submitted the app to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
+Version 1.0.1 released. Submitted it to [Microsoft Malware Analysis](https://www.microsoft.com/en-us/wdsi/filesubmission).
+- 2023/4/28
+Version 1.1.0 released. Submitted it to Riot. Waiting for response.
+- 2023/5/7
+Version 1.1.0 is rejected by Riot due to the new Easy Print feature. Please use Version 1.0.1.
+
+## Download
+https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (Version 1.0.1, approved by Riot)
+
 
 # 应用介绍
 
@@ -54,11 +68,3 @@ Version 1.0.1 released. Submitted the app to [Microsoft Malware Analysis](https:
 - 按下“F1”快捷键，可快速隐藏/显示应用。
 
 **注意：请将英雄联盟客户端显示模式设置成“无边框”。如果使用“全屏”显示模式，当你按下“F1”快捷键时会被强制返回桌面**
-
-## 更新日志
-- 2022/8/22 
-完成1.0版本。已将应用提交给拳头官方审核。等待回复。
-- 2022/9/2
-已通过拳头官方审核。下一步是游戏内测试。
-- 2022/9/6
-发布1.0.1版本。由于windows默认阻止很烦，已提交给微软审核。
