@@ -2,7 +2,7 @@
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 
-707.F is an in-game overlay Flash cooldown timer for popular game League of Legends. The app is approved by Riot and safe to use. 
+707.F is an in-game overlay Flash cooldown timer for popular game League of Legends.
 
 The developer of this app (yes it's me) is a sole rank Master player (support main).
 
