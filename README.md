@@ -1,8 +1,8 @@
-# 707FlashTimer
+# 707.F
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 
-707FlashTimer is an in-game overlay Flash cooldown timer for popular game League of Legends. The app is approved by Riot and safe to use. 
+707.F is an in-game overlay Flash cooldown timer for popular game League of Legends. The app is approved by Riot and safe to use. 
 
 The developer of this app (yes it's me) is a sole rank Master player (support main).
 
@@ -50,7 +50,7 @@ The app isn't endorsed by Riot Games and doesn't reflect the views or opinions o
 
 # 应用介绍
 
-707FlashTimer是为英雄联盟设计的闪现技能计时器。它将在游戏内覆盖显示，可以用快捷键快速隐藏或显示窗口。
+707.F是为英雄联盟设计的闪现技能计时器。它将在游戏内覆盖显示，可以用快捷键快速隐藏或显示窗口。
 
 ## 功能
 
