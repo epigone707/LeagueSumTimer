@@ -40,9 +40,9 @@ Version 1.1.0 released. Submitted it to Riot. Waiting for response.
 - 2023/5/7
 Version 1.1.0 is rejected due to the new Easy Print feature. Please use Version 1.0.1.
 - 2023/6/18
-Version 1.2 realeased. Submitted it to Riot. Waiting for response.
+Version 1.2 realeased in which I have deleted the Easy Print feature. Submitted it to Riot. Waiting for response.
 - 2023/6/22
-- Version 1.2 is rejected. I don't know why. Submit version 1.2.1 which uses a different app logo.
+Version 1.2 is rejected and I don't know why. Submit version 1.2.1 which uses a different app logo.
 
 ## Download
 https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (Version 1.0.1, approved by Riot)
