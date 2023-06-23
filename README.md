@@ -45,6 +45,8 @@ Version 1.2 realeased. Submitted it to Riot. Waiting for response.
 ## Download
 https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (Version 1.0.1, approved by Riot)
 
+## Legal
+The app isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 
 # 应用介绍
 
