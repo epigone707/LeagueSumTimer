@@ -2,7 +2,7 @@
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 
-707.F is an in-game overlay Flash cooldown timer for popular game League of Legends.
+707.F is an in-game overlay Flash cooldown timer for popular game League of Legends, which has been reviewd and approved by Riot.
 
 The developer of this app (yes it's me) is a sole rank Master player (support main).
 
@@ -43,9 +43,11 @@ Version 1.1.0 is rejected due to the new Easy Print feature. Please use Version 
 Version 1.2 realeased in which I have deleted the Easy Print feature. Submitted it to Riot. Waiting for response.
 - 2023/6/22
 Version 1.2 is rejected and I don't know why. Submit version 1.2.1 which uses a different app logo.
+- 2023/7/1
+**Version 1.2.1 is APPROVED by Riot.**
 
 ## Download
-https://github.com/epigone707/LeagueSumTimer/releases/download/1.0.1/707FlashTimer.exe (Version 1.0.1, approved by Riot)
+https://github.com/epigone707/LeagueSumTimer/releases/tag/1.2 (Version 1.2.1, approved by Riot)
 
 ## Legal
 The app isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
