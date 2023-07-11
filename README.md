@@ -49,8 +49,8 @@ Version 1.2 is rejected and I don't know why. Submit version 1.2.1 which uses a 
 ## Download
 https://github.com/epigone707/LeagueSumTimer/releases/tag/1.2 (Version 1.2.1, approved by Riot)
 
-## Legal
-The app isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+## Disclaimer
+> The app isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 
 # 应用介绍
 
