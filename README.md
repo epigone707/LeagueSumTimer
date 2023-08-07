@@ -8,6 +8,8 @@ The developer of this app (yes it's me) is a sole rank Master player (support ma
 
 [中文介绍](#应用介绍)
 
+**Please give me a STAR if you think this is helpful**
+
 ## Screenshot
 ![DEMO!](assets/demo.png "DEMO")
 
